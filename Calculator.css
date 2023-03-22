@@ -1,0 +1,115 @@
+/* main-container-for-all-heads */
+
+.container{
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+/* this-media-query-is-for-responsive web design */
+
+@media (min-width : 768px){
+    .container{
+        height: auto;
+        width: 600px;
+    }
+}
+
+/* calcultor-text-head */
+
+.head1{
+    height: 80px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* calculator-text */
+
+.heading{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.white-color{
+    color: white;
+}
+
+/* display head  */
+
+.head2{
+    height: 100px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+/* input-numbers-head */
+
+.head3{
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* each-subbox-numbers */
+
+.box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* all-about-each-button */
+
+.btn{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.btn-num:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.bg-white-color{
+    background-color: white;
+}
+
+.bg-red-color{
+    background-color: rgb(215, 10, 89);
+}
+
+.bg-red-color:hover{
+    background-color: rgb(248, 102, 158);
+}
+
+.box5btn1{
+    width: 51%;
+}
+
+.text{
+    font-size: 20px;
+}
+
