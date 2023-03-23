@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- declaration of the document type, HTML in this case -->
+<html lang="en"> <!-- opening tag for the HTML document and specifying the language as English -->
+
+<head> <!-- head element containing information about the document such as title, meta data, stylesheets, etc. -->
+    <meta charset="UTF-8"> <!-- character set used in the document -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibility with Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- setting the viewport for responsive design -->
+    <link rel="stylesheet" href="./assets/index.css" type="text/css">
+    <!-- linking the stylesheet file for styling the calculator -->
+    <!-- A retro-style icon of a vintage calculator with a red LED display -->
+    <link rel="icon" type="image/x-icon" href="./assets/calculator-icon.webp">
+    <title>Document</title> <!-- title of the document -->
+</head>
+
+<body> <!-- body of the document containing the visible content of the calculator -->
+    <div class="container"> <!-- main container for the calculator -->
+        <div class="head head1"> <!-- first header containing the title of the calculator -->
+            <div class="heading">
+                <h1 class="white-color">Calculator</h1> <!-- title of the calculator -->
+            </div>
+        </div>
+        <div class="head head2"> <!-- second header containing the display of the calculator -->
+            <h1 id="display"></h1> <!-- display element where the input and output will be shown -->
+        </div>
+        <div class="head head3"> <!-- third header containing the buttons for the calculator -->
+            <div class="box box1"> <!-- first set of buttons for the calculator -->
+                <button class="btn btn-num box1btn1 bg-white-color" data-value="AC"><span
+                        class="text">AC</span></button> <!-- clear button -->
+                <button class="btn btn-num box1btn2 bg-white-color" data-value="+/-"><span
+                        class="text">+/-</span></button> <!-- plus/minus button -->
+                <button class="btn btn-num box1btn3 bg-white-color" data-value="%"><span class="text">%</span></button>
+                <!-- percentage button -->
+                <button class="btn box1btn4 bg-red-color white-color" data-value="/"><span
+                        class="text">/</span></button> <!-- divide button -->
+            </div>
+            <div class="box box2"> <!-- second set of buttons for the calculator -->
+                <button class="btn btn-num box2btn1 bg-white-color" data-value="7"><span class="text">7</span></button>
+                <!-- number 7 button -->
+                <button class="btn btn-num box2btn2 bg-white-color" data-value="8"><span class="text">8</span></button>
+                <!-- number 8 button -->
+                <button class="btn btn-num box2btn3 bg-white-color" data-value="9"><span class="text">9</span></button>
+                <!-- number 9 button -->
+                <button class="btn box2btn4 bg-red-color white-color" data-value="*"><span
+                        class="text">*</span></button> <!-- multiply button -->
+            </div>
+            <div class="box box3"> <!-- third set of buttons for the calculator -->
+                <button class="btn btn-num box2btn1 bg-white-color" data-value="4"><span class="text">4</span></button>
+                <!-- number 4 button -->
+                <button class="btn btn-num box2btn2 bg-white-color" data-value="5"><span class="text">5</span></button>
+                <!-- number 5 button -->
+                <button class="btn btn-num box2btn3 bg-white-color" data-value="6"><span class="text">6</span></button>
+                <!-- number 6 button -->
+                <button class="btn box2btn4 bg-red-color white-color" data-value="-"><span
+                        class="text">-</span></button> <!-- negative button -->
+            </div>
+            <div class="box box4"> <!-- fourth set of buttons for the calculator -->
+                <button class="btn btn-num box2btn1 bg-white-color" data-value="1"><span class="text">1</span></button>
+                <!-- number 1 button -->
+                <button class="btn btn-num box2btn2 bg-white-color" data-value="2"><span class="text">2</span></button>
+                <!-- number 2 button -->
+                <button class="btn btn-num box2btn3 bg-white-color" data-value="3"><span class="text">3</span></button>
+                <!-- number 3 button -->
+                <button class="btn box2btn4 bg-red-color white-color" data-value="+"><span
+                        class="text">+</span></button> <!-- plus button -->
+            </div>
+            <div class="box box5"> <!-- fifth set of buttons for the calculator -->
+                <button class="btn btn-num box5btn1 bg-white-color" data-value="0"><span class="text">0</span></button>
+                <!-- number 0 button -->
+                <button class="btn btn-num box5btn2 bg-white-color" data-value="."><span class="text">.</span></button>
+                <!-- point button -->
+                <button class="btn box5btn3 bg-red-color white-color" data-value="="><span
+                        class="text">=</span></button> <!-- equal to button -->
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript file -->
+    <script type="text/javascript" src="./assets/index.js"></script>
+</body>
+
+</html>
